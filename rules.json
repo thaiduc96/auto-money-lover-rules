@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "formatVersion": 1,
+  "ignorePatterns": [],
+  "sources": [
+    {
+      "id": "vcb", "name": "Vietcombank", "shortName": "VCB", "hints": ["vietcombank", "vcb"],
+      "formats": [
+        { "pattern": "so du tk vcb \\S+ (?<sign>[+-])(?<amount>[\\d.,]+) vnd luc" }
+      ]
+    },
+    { "id": "tcb", "name": "Techcombank", "shortName": "TCB", "hints": ["techcombank", "tcb"] },
+    {
+      "id": "mb", "name": "MB Bank", "shortName": "MB", "hints": ["mbbank", "mb bank"], "appOnlyHints": ["mb"],
+      "formats": [
+        { "pattern": "\\|\\s*gd\\s*:\\s*(?<sign>[+-])(?<amount>[\\d.,]+)\\s*vnd" }
+      ]
+    },
+    { "id": "tpb", "name": "TPBank", "shortName": "TPB", "hints": ["tpbank"] },
+    { "id": "acb", "name": "ACB", "shortName": "ACB", "hints": ["acb"] },
+    { "id": "vpb", "name": "VPBank", "shortName": "VPB", "hints": ["vpbank"], "appOnlyHints": ["neo"] },
+    { "id": "bidv", "name": "BIDV", "shortName": "BIDV", "hints": ["bidv"] },
+    { "id": "ctg", "name": "VietinBank", "shortName": "CTG", "hints": ["vietinbank"], "appOnlyHints": ["ipay"] },
+    { "id": "agribank", "name": "Agribank", "shortName": "AGR", "hints": ["agribank"] },
+    { "id": "stb", "name": "Sacombank", "shortName": "STB", "hints": ["sacombank"] },
+    { "id": "vib", "name": "VIB", "shortName": "VIB", "hints": ["vib"] },
+    { "id": "hdb", "name": "HDBank", "shortName": "HDB", "hints": ["hdbank"] },
+    { "id": "ocb", "name": "OCB", "shortName": "OCB", "hints": ["ocb"] },
+    { "id": "cimb", "name": "CIMB", "shortName": "CIMB", "hints": ["cimb"] },
+    { "id": "hsbc", "name": "HSBC", "shortName": "HSBC", "hints": ["hsbc"] },
+    { "id": "uob", "name": "UOB", "shortName": "UOB", "hints": ["uob"] },
+    { "id": "cake", "name": "Cake", "shortName": "CAKE", "appOnlyHints": ["cake"] },
+    { "id": "timo", "name": "Timo", "shortName": "TIMO", "appOnlyHints": ["timo"] },
+    { "id": "momo", "name": "MoMo", "shortName": "MoMo", "hints": ["momo"] },
+    { "id": "zalopay", "name": "ZaloPay", "shortName": "ZaloPay", "hints": ["zalopay"] },
+    { "id": "shopeepay", "name": "ShopeePay", "shortName": "ShopeePay", "hints": ["shopeepay"] }
+  ]
+}
