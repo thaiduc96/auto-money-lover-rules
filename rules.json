@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "formatVersion": 1,
   "ignorePatterns": [],
   "sources": [
@@ -22,7 +22,7 @@
     { "id": "bidv", "name": "BIDV", "shortName": "BIDV", "hints": ["bidv"] },
     { "id": "ctg", "name": "VietinBank", "shortName": "CTG", "hints": ["vietinbank"], "appOnlyHints": ["ipay"] },
     { "id": "agribank", "name": "Agribank", "shortName": "AGR", "hints": ["agribank"] },
-    { "id": "stb", "name": "Sacombank", "shortName": "STB", "hints": ["sacombank"] },
+    { "id": "stb", "name": "Sacombank", "shortName": "STB", "hints": ["sacombank", "sacombankpay"] },
     { "id": "vib", "name": "VIB", "shortName": "VIB", "hints": ["vib"] },
     { "id": "hdb", "name": "HDBank", "shortName": "HDB", "hints": ["hdbank"] },
     { "id": "ocb", "name": "OCB", "shortName": "OCB", "hints": ["ocb"] },
